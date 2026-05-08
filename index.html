@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <h2>EduPanel</h2>
+      </div>
+
+      <ul class="menu">
+        <li class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
+        <li><i class="fa-solid fa-book"></i> Courses</li>
+        <li><i class="fa-solid fa-chart-line"></i> Progress</li>
+        <li><i class="fa-solid fa-calendar"></i> Schedule</li>
+        <li><i class="fa-solid fa-message"></i> Messages</li>
+        <li><i class="fa-solid fa-gear"></i> Settings</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Top Navbar -->
+      <div class="topbar">
+        <div>
+          <h1>Student Dashboard</h1>
+          <p>Welcome back, Abdul Samad 👋</p>
+        </div>
+
+        <div class="profile">
+          <img src="https://i.pravatar.cc/100" alt="profile" />
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="cards">
+
+        <div class="card">
+          <div>
+            <h3>Total Courses</h3>
+            <p>08</p>
+          </div>
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>Assignments</h3>
+            <p>14</p>
+          </div>
+          <i class="fa-solid fa-file"></i>
+        </div>
+
+        <div class="card">
+          <div>
+            <h3>Attendance</h3>
+            <p>92%</p>
+          </div>
+          <i class="fa-solid fa-chart-pie"></i>
+        </div>
+
+      </div>
+
+      <!-- Progress Section -->
+      <div class="progress-section">
+
+        <div class="progress-card">
+          <h2>Web Engineering</h2>
+          <div class="progress-bar">
+            <div class="progress web"></div>
+          </div>
+          <span>80%</span>
+        </div>
+
+        <div class="progress-card">
+          <h2>Artificial Intelligence</h2>
+          <div class="progress-bar">
+            <div class="progress ai"></div>
+          </div>
+          <span>65%</span>
+        </div>
+
+        <div class="progress-card">
+          <h2>Database Systems</h2>
+          <div class="progress-bar">
+            <div class="progress db"></div>
+          </div>
+          <span>90%</span>
+        </div>
+
+      </div>
+
+      <!-- Table -->
+      <div class="table-section">
+        <h2>Recent Activities</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Task</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Web Engineering</td>
+              <td>Assignment Submission</td>
+              <td><span class="done">Completed</span></td>
+            </tr>
+
+            <tr>
+              <td>AI</td>
+              <td>Quiz Attempt</td>
+              <td><span class="pending">Pending</span></td>
+            </tr>
+
+            <tr>
+              <td>Database</td>
+              <td>Project Upload</td>
+              <td><span class="done">Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
